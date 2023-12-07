@@ -1,0 +1,113 @@
+/* Global CSS */
+:root {
+    --primary: #5e3bee;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #e62872;
+    --dark-blue: #1c1e53;
+    --black: #000;
+    --white: #fff;
+}
+
+* {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: "Roboto", sans-serif;
+    -moz-osx-smoothing: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    padding: 14px 32px;
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 4px;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-primary:hover {
+    color: var(--primary);
+    background-color: var(--white);
+}
+
+.btn-github {
+    color: var(--white);
+    background-color: var(--github);
+    border: var(--github);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, .95);
+    gap: 1rem;
+}
+
+.btn-github:hover {
+    color: var(--github);
+    background-color: var(--white);
+}
+/* Global CSS Ends Here! */
+
+/* Main Headings */
+/* Heading 1 */
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.625rem;
+}
+
+h2 {
+    font-size: 1.563rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+}
