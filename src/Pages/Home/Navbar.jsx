@@ -97,7 +97,7 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonials"
+              to="testimonial"
               className="navbar--content"
             >
               Testimonials
