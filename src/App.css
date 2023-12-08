@@ -139,8 +139,8 @@ h2 {
     font-weight: 400;
     line-height: 21px;
 }
-
 /* Section Title Starts Here */
+
 /* Skills & About me */
 .section--title {
     color: var(--heading-color);
@@ -162,6 +162,49 @@ h2 {
 }
 
 /* Section Title Ends Here! */
+
+/* NavBar Styling Starts Here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 85.333px;
+    background: var(--white);
+    box-shadow: 0 5.333px 80px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42.667px;
+    text-decoration: none;
+}
+
+.navbar--items ul > li > a {
+    text-decoration: none;
+}
+
+/*  NavBar Content */
+.navbar--content {
+    color: var(--dark-blue);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.navbar--active-content {
+    color: var(--primary);
+}
+/* NavBar Styling Ends Here */
+
+
 
 /*  Hero Section Style Starts Here! */
 .hero--section {
@@ -197,7 +240,7 @@ h2 {
     font-size: 74.667px;
     font-weight: 700;
     align-self: stretch;
-    color: var(--primary);
+    color: var(--dark-blue);
 }
 
 .hero--section-description {
@@ -215,3 +258,84 @@ h2 {
     height: 100%;
 }
 /* Hero Section Styling Ends Here... */
+
+/*  Skills Section Styling */
+
+.skills--section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 149.33px 85.33px;
+    gap: 106.667px;
+}
+
+.skills--section--heading {
+    color: var(--heading-color);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+}
+
+.skills--section--container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42.6px;
+}
+
+.skills--section--card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    gap: 2rem;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: var(--bg-shade);
+}
+
+.skills--section--card:hover {
+    border-bottom: 4px solid var(--primary);
+}
+
+.skills--section--card:hover, .skills--section--description {
+    color: var(--dark-blue);
+}
+
+.skills--section--img {
+    display: flex;
+    padding: 13.3px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.3px;
+    border-radius: 10.6px;
+    background: var(--white);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, .1);
+}
+
+.skills--section--card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.skills--section--title {
+    color: var(--heading-color);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.skills--section--description {
+    color: var(--black);
+    font-size: 21.3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+/* Skill Styling Ends Here! */
+
