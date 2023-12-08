@@ -339,3 +339,19 @@ h2 {
 }
 /* Skill Styling Ends Here! */
 
+/* About Me Styling  Starts Here */
+.about--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 114.6px;
+}
+
+.about--section--img > img {
+    width: 100%;
+    height: 100%;
+}
+/* About Me Ends Here */
+
+/* Portfolio Styling Starts Here  */
