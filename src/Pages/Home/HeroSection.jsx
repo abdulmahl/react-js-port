@@ -18,7 +18,7 @@ const HeroSection = () => {
         <button type="submit" className="btn btn-primary">Get in Touch</button>
       </div>
       <div className="hero--section--image">
-        <img src="./img/hero_img.png" alt="Hero-Image" />
+        <img src="./img/hero_img.jpeg" alt="Hero-Image" />
       </div>
     </section>
   );
