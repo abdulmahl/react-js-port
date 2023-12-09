@@ -29,21 +29,21 @@
     {
       "id": "1",
       "src": "./img/placeholder-1.png",
-      "title": "Ahuse",
+      "title": "PHP Motors",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-2.png",
-      "title": "App Dashboard",
+      "title": "Sleep Outside",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder.png",
-      "title": "Easy Rentn",
+      "title": "E-Commerce Site",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     }

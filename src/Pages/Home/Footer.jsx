@@ -1,6 +1,8 @@
 import { Link } from "react-scroll";
 import React from "react";
 
+let Y = new Date();
+
 const Footer = () => {
   return (
     <footer className="footer--container">
@@ -81,7 +83,7 @@ const Footer = () => {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://web.facebook.com/mduduziabdul.Mahlangu.7"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +104,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/mduduzi8704/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +127,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/home?lang=en"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +148,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/abdul-mahlangu/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +174,7 @@ const Footer = () => {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Abdul</p>
+        <p className="footer--content">Create by Abdul &copy; {Y.getFullYear()}</p>
         <div className="footer--social--icon">
           <ul>
             <li>
