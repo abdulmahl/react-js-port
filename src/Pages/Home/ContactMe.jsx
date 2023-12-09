@@ -56,9 +56,9 @@ const ContactMe = () => {
           <span className="text-md">Choose a Topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>PHP Motors</option>
+            <option>Sleep Outside</option>
+            <option>Chamber Site</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
