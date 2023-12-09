@@ -24,7 +24,13 @@ const MyPortfolio = () => {
                 fill="currentColor"
               />
             </svg>
-            Visit My GitHub
+            <a
+              className="myGithub"
+              href="https://github.com/abdulmahl"
+              target="_blank"
+            >
+              Visit My GitHub
+            </a>
           </button>
         </div>
       </div>
@@ -35,13 +41,11 @@ const MyPortfolio = () => {
               <img src={item.src} alt="Placeholder" />
             </div>
             <div className="portfolio--section--card--content">
-                <div>
-                    <h3 className="portfolio--section--title">
-                        {item.title}
-                    </h3>
-                    <p className="text-md">{item.description}</p>
-                </div>
-                <p className="text-sm portfolio--link">
+              <div>
+                <h3 className="portfolio--section--title">{item.title}</h3>
+                <p className="text-md">{item.description}</p>
+              </div>
+              <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

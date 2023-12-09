@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img lazy-loading src="./img/about-me.png" alt="About-Me" />
+        <img lazy-loading src="./img/image-hero.png" alt="About-Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
