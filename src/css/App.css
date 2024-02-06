@@ -213,6 +213,7 @@ h2 {
   justify-content: space-between;
   gap: 32px;
   background-color: var(--bg-shade);
+  margin-top: 90px;
 }
 
 .hero--section--content--box {
@@ -653,6 +654,11 @@ input[type="checkbox"] {
     font-size: 68px;
     line-height: 70px;
   }
+
+  .contact--section {
+    padding: 7rem;
+  }
+
   .skills--section--title {
     font-size: 28px;
     line-height: 40px;
@@ -680,6 +686,39 @@ input[type="checkbox"] {
   .skills--section--description {
     font-size: 17.333px;
     line-height: 27px;
+  }
+
+  .hero--section--image img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .testimonial--section {
+    padding: 1rem;
+  }
+
+  .portfolio--section {
+    padding: 1rem;
+  }
+
+  .hero--section {
+    padding: 1rem;
+  }
+
+  .skills--section--card {
+    padding: 1rem;
+  }
+
+  .about--section {
+    padding: 1rem;
+  }
+
+  .about--section--img img {
+    width: 100%;
+  }
+
+  .skills--section {
+    padding: 1rem;
   }
 }
 
@@ -718,12 +757,16 @@ input[type="checkbox"] {
   }
   .skills--section,
   .testimonial--section,
-  .contact--section,
   .footer--container {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
+  .contact--section {
+    padding: 1rem;
+  }
+
   .about--section {
     gap: 20px;
     padding-top: 0;
