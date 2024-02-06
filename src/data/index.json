@@ -31,21 +31,21 @@
       "src": "./img/placeholder-1.png",
       "title": "PHP Motors",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/abdulmahl/cse340"
     },
     {
       "id": "2",
       "src": "./img/placeholder-2.png",
       "title": "Sleep Outside",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/Janalovelock/teame"
     },
     {
       "id": "3",
       "src": "./img/placeholder.png",
-      "title": "E-Commerce Site",
+      "title": "Chamber of Commerce Site",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/abdulmahl/wdd230"
     }
   ],
   "testimonial": [
