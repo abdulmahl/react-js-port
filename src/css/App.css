@@ -693,26 +693,6 @@ input[type="checkbox"] {
     margin: 0;
   }
 
-  .testimonial--section {
-    padding: 1rem;
-  }
-
-  .portfolio--section {
-    padding: 1rem;
-  }
-
-  .hero--section {
-    padding: 1rem;
-  }
-
-  .skills--section--card {
-    padding: 1rem;
-  }
-
-  .about--section {
-    padding: 1rem;
-  }
-
   .about--section--img img {
     width: 100%;
   }
@@ -799,6 +779,26 @@ input[type="checkbox"] {
   }
   .divider {
     margin: 20px;
+  }
+
+  .testimonial--section {
+    padding: 1rem;
+  }
+
+  .portfolio--section {
+    padding: 1rem;
+  }
+
+  .hero--section {
+    padding: 1rem;
+  }
+
+  .skills--section--card {
+    padding: 1rem;
+  }
+
+  .about--section {
+    padding: 1rem;
   }
 }
 
