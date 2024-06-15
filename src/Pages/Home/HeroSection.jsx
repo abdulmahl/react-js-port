@@ -5,7 +5,7 @@ const HeroSection = () => {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Abdul...</p>
           <h1 className="hero--section--title">
-            Junior Front-end
+            Full Stack
             <span className="hero--section--title--color"></span> <br />
             Web Developer
           </h1>
